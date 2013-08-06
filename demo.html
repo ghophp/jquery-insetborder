@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>jQuery Border Inset</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="jquery.insetborder.js"></script>
+
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+				$('a.sample-border1').borderEffect();
+				$('a.sample-border2').borderEffect({borderColor : '#ffffff'});
+				$('a.sample-border3').borderEffect({borderColor : '#cccccc', speed : 100, borderWidth: 10});
+			});
+
+		</script>
+		<style>
+
+			body {
+				padding: 30px;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			ul li {
+				float: left;
+				display: inline-block;
+				margin: 0 15px 0 0;
+			}
+
+			ul li a {
+				display: block;
+			}
+
+			ul li a img {
+				width: 130px;
+				height: 130px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a href="#" class="sample-border1">
+					<img src="http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="sample-border2">
+					<img src="http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="sample-border3">
+					<img src="http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png"/>
+				</a>
+			</li>
+		</ul>
+	</body>
+</html>
