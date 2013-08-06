@@ -1,0 +1,29 @@
+{
+    "name": "jquery.insetborder",
+    "title": "jQuery Inset Border",
+    "description": "jQuery plugin to inset border effect easy and simple.",
+    "keywords": [
+        "border",
+        "effect",
+        "inset"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Guilherme Henrique de Oliveira",
+        "url": "http://ghophp.github.io/"
+    },
+    "maintainers": [],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/ghophp/jquery-insetborder/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/ghophp/jquery-insetborder/issues",
+    "homepage": "https://github.com/ghophp/jquery-insetborder",
+    "docs": "https://github.com/ghophp/jquery-insetborder",
+    "download": "https://github.com/ghophp/jquery-insetborder",
+    "dependencies": {
+        "jquery": ">=1"
+    }
+}
